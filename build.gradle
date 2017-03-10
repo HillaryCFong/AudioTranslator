@@ -32,9 +32,9 @@ dependencies {
 
 
 task deployToJetty(type: Copy) {
-	from 'build/libs'
-	into 'C:/jetty/webapps/'
-	include '*.war'
+//	from 'build/libs'
+//	into 'C:/jetty/webapps/'
+//      include '*.war'
 }
 
 build.finalizedBy(deployToJetty)
