@@ -12,4 +12,12 @@ public class LibraryTest {
         Library classUnderTest = new Library();
         assertTrue("someLibraryMethod should return 'true'", classUnderTest.someLibraryMethod());
     }
+    
+public String getSiteName(){
+ return "http://combination-s2t.bluemix.net";
+}
+    
+ public String getFileName(){
+ return "trial.wav";
+}
 }
