@@ -2,12 +2,6 @@
 <html lang="en">
 
 <head>
-<<<<<<< HEAD
-=======
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Watson - Speech To Text</title>
-<link href="src/main/webapp/WEB-INF/views/style.css" rel="stylesheet" type="text/css" />
->>>>>>> origin/master
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -40,7 +34,6 @@
 <body id="page-top" class="index">
 <div id="skipnav"><a href="#maincontent">Skip to main content</a></div>
 
-<<<<<<< HEAD
     <!-- Navigation -->
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
         <div class="container">
@@ -51,9 +44,6 @@
                 </button>
                 <a class="navbar-brand" href="#page-top">AUDIO TRANSLATOR</a>
             </div>
-=======
-<body>
->>>>>>> origin/master
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -74,7 +64,6 @@
             </div>
             <!-- /.navbar-collapse -->
         </div>
-<<<<<<< HEAD
         <!-- /.container-fluid -->
     </nav>
 
@@ -178,46 +167,4 @@
 
 </body>
 
-=======
-    </div>
-      <div class="contentBox">
-      <div class="innerBox">
-	 <h1> Step 1: Choose a language to convert your audio file into.</h1>
-	 <div class="contentText">
-
-	<form method="POST" action="home" enctype="multipart/form-data">
-
-	<p class="tr-selector" >
-			<select style = "font-size:23px ; background-color: white; display: block; margin: 0 auto;" name="tr-model-id">
-				<option value="en-ar">English - Arabic</option>
-				<option value="en-fr">English - French</option>
-				<option value="en-pt">English - Portuguese</option>
-				<option value="en-es">English - Spanish</option>
-			</select>
-		</p>	
-		
-		</div>
-			<h1> Step 2: Upload the audio file.</h1>
-		
-			<div class="contentText">
-	
-		<input class = "foo" type="file" name="file" accept=".wav">
-			</div>
-		<br>
-		
-		<h1> Step 3: Click the button to start the translation!</h1>
-		<div class="contentText">
-		<input class = "button button5" type="submit" name="submit" value="Translate">
-		
-		</div>
-		</br>
-
-	
-	</form>
-
-	<div id="footer"><a href="http://www.aszx.net">Transcription->Translation->Transcription</a> by hrcfong and nicko</a></div>
-	</div>
-	</div>
-</body>
->>>>>>> origin/master
 </html>
