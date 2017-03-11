@@ -13,13 +13,6 @@
 
 
 <body>
-<div id="page">
-        <div class="topNaviagationLink"><a href="index.html">Home</a></div>
-        <div class="topNaviagationLink"><a href="index.html">About</a></div>
-        <div class="topNaviagationLink"><a href="index.html">Portfolio</a></div>
-        <div class="topNaviagationLink"><a href="index.html">Services</a></div>
-	    <div class="topNaviagationLink"><a href="index.html">Contact</a></div>
-	</div>
 
 	  <div id="mainPicture">
     	<div class="picture">
@@ -59,25 +52,10 @@
 		</div>
 		</br>
 
-
-	<h1> Audio transcription and translation results!</h1>
-	<div class="contentText">
-		<div class="row-md-6"><h3>Transcript: </h3><c:if test="${!empty transcription}">
-	<textarea class="result" name="tr-from" rows="10" cols="20" disabled="disabled" style="width:625px; resize:none;" >
-
-		${transcription}
-	</textarea></c:if>
-	</div>	<div class="row-md-6">
-	<h3>Translation: </h3><c:if test="${!empty translation}">
-	<textarea class="result" name="tr-from" rows="10"  cols="20" disabled="disabled" style="width:625px; resize:none;">
-		${translation}
-	</textarea></c:if></div>
-	</br>
-	</div>
 	
 	</form>
 
-	<div id="footer"><a href="http://www.aszx.net">Transcription->Translation->Transcription</a> by <a href="http://www.bryantsmith.com">hrcfong and nicko</a></div>
+	<div id="footer"><a href="http://www.aszx.net">Transcription->Translation->Transcription</a> by hrcfong and nicko</a></div>
 	</div>
 	</div>
 </body>
