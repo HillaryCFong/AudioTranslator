@@ -6,7 +6,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Watson - Speech To Text</title>
-<link href="style.css" rel="stylesheet" type="text/css" />
+<link href="src/main/webapp/WEB-INF/views/style.css" rel="stylesheet" type="text/css" />
 
 
 </head>
