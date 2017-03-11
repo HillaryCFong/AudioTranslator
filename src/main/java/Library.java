@@ -8,4 +8,12 @@ public class Library {
     public boolean someLibraryMethod() {
         return true;
     }
+    
+   public String getSiteName(){
+ return "http://combination-s2t.bluemix.net";
+}
+    
+ public String getFileName(){
+ return "trial.wav";
+}
 }
