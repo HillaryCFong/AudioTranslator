@@ -15,7 +15,7 @@
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Theme CSS -->
-    <link href="AudioTranslator/src/main/webapp/WEB-INF/views/css/freelancer.min.css" rel="stylesheet">
+    <link href="AudioTranslator/src/main/webapp/css/css/freelancer.min.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -72,7 +72,7 @@
         <div class="container" id="maincontent" tabindex="-1">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive" src="AudioTranslator/src/main/webapp/WEB-INF/views/img/profile.png" alt="">
+                    <img class="img-responsive" src="AudioTranslator/src/main/webapp/css/img/profile.png" alt="">
                     <div class="intro-text">
                         <h1 class="name">WELCOME TO AUDIO TRANSLATOR</h1>
                         <hr class="star-light">
